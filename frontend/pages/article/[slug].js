@@ -46,7 +46,7 @@ const Article = ({ article, categories }) => {
                                 </p>
                             </div>
                             <div>
-                                {article.content}
+                                <ReactMarkdown source={article.content} escapeHtml={false} />                                
                             </div>
                         </div>
                     </div>

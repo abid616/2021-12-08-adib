@@ -23,3 +23,5 @@ export const Posts = ({ articles, categories}) => {
         </div>
     )
 }
+
+export default Posts
